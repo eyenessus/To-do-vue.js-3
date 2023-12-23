@@ -1,10 +1,11 @@
 <script setup lang="ts">
-defineProps<{}>()
+var firstName = "Emerson";
+var lastName = " Souza";
 </script>
 
 <template>
     <header class="header">
-        UMA HEADER
+        {{ firstName  + lastName}}
     </header>
 </template>
 
